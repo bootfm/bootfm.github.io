@@ -18,13 +18,8 @@ active: archive
   {% for post in posts %}
     {% if post.tags contains t %}
       <li>
-        {% if post.lastmod %}
-          <a href="{{ post.url }}">Vol.{{ post.volume }}: {{ post.title }}</a>
-          <span class="date">{{ post.lastmod | date: "%d-%m-%Y"  }}</span>
-        {% else %}
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <span class="date">{{ post.date | date: "%d-%m-%Y"  }}</span>
-        {% endif %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date: "%d-%m-%Y"  }}</span>
       </li>
     {% endif %}
   {% endfor %}
