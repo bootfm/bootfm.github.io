@@ -17,6 +17,7 @@ url: "https://bootfm.github.io" # the base hostname & protocol for your site
 twitter_username: boot_fm
 github_username:  bootfm
 disqus_username:
+itunes_podcast_url: https://itunes.apple.com/jp/podcast/boot.fm/id1175746503
 actors:
   timakin:
     image_url: /images/profile/timakin.jpg
