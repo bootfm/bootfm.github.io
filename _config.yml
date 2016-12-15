@@ -31,6 +31,10 @@ actors:
     image_url: /images/profile/giginet.png
     name: giginet
     url: https://twitter.com/giginet
+  toshimaru_e:
+    image_url: /images/profile/toshimaru_e.png
+    name: toshimaru_e
+    url: https://twitter.com/toshimaru_e
 exclude:
   - Gemfile
   - Gemfile.lock
