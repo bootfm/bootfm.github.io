@@ -35,6 +35,10 @@ actors:
     image_url: /images/profile/toshimaru_e.png
     name: toshimaru_e
     url: https://twitter.com/toshimaru_e
+  yosuke_furukawa:
+    image_url: /images/profile/yosuke_furukawa.png
+    name: yosuke_furukawa
+    url: https://twitter.com/yosuke_furukawa
 exclude:
   - Gemfile
   - Gemfile.lock
